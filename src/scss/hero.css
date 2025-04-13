@@ -1,29 +1,101 @@
 .hero {
-  background-image: url(../img/hero/hero-mobile-bg.jpg);
+  background-image: url(../img/hero/hero-bg-mobile.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 90vh;
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   @media (min-width: 1440px) {
-    background-image: url(../img/hero/hero-img.jpg);
-    margin-bottom: 140px;
+    background-image: url(../img/hero/hero-bg-pc.jpg);
+    background-position: bottom;
+    height: 135vh;
+    margin-bottom: 80px;
+    margin-top: 108px;
   }
 }
 
-.hero_container {
-  position: relative;
+.hero-container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
   height: 100%;
-  padding: 0 20px;
+  padding: 0 56px;
+}
+
+.hero-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin-bottom: 16px;
   @media (min-width: 1440px) {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 80px;
+    font-size: 40px;
+    max-width: 100%;
   }
 }
 
+.hero-text > span {
+  display: block;
+  @media (min-width: 1440px) {
+    display: inline;
+  }
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  background: #fff;
+  border-radius: 6px;
+  width: 208px;
+  height: 54px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  @media (min-width: 1440px) {
+    gap: 9.5px;
+    width: 270px;
+    height: 60px;
+  }
+}
+
+.hero-text > span {
+  white-space: nowrap;
+}
+
+.hero-button:hover {
+  background: #f0f0f0;
+}
+
+.hero-button > img {
+  width: 21px;
+  height: 24px;
+}
+
+.hero-button-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.hero-button-text > p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.hero-button-text > img {
+  width: 108px;
+  height: 23px;
+}
