@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Experience the thrill of real-time golf matches in Golf Impact! Master your swings, compete in global tournaments, and become a golf legend. Play now and challenge players worldwide!"
+    />
+    <meta
+      name="keywords"
+      content="Golf Impact, real golf game, golf simulator, multiplayer golf, online sports game, competitive golf, mobile golf, realistic golf experience"
+    />
+    <meta name="author" content="Game Master Star Team" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://gamemasterstar.com" />
+
+    <link rel="icon" type="image/svg+xml" href="/golf-champion-outs/assets/favicon-cabab0d2.png" />
+    <title>Golf Champion</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:wght@400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/golf-champion-outs/assets/vendor-136772fa.js"></script>
+    <script type="module" crossorigin src="/golf-champion-outs/assets/main-a1ca5b62.js"></script>
+    <link rel="stylesheet" href="/golf-champion-outs/assets/main-461817cf.css">
+    <link rel="stylesheet" href="/golf-champion-outs/assets/vendor-6ff13ef6.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="header_container container">
+    <a href="./index.html" class="header-logo">
+      <img src="/golf-champion-outs/assets/logo-8d7b1046.png" alt="logo" />
+    </a>
+    <nav class="header-nav-pc">
+      <ul class="header-nav-pc-list">
+        <li class="header-nav-pc-item">
+          <a href="#description">Game Description</a>
+        </li>
+        <li class="header-nav-pc-item">
+          <a href="#features">Features</a>
+        </li>
+        <li class="header-nav-pc-item">
+          <a href="#gallery">Gallery</a>
+        </li>
+        <li class="header-nav-pc-item">
+          <a href="#how-play">How to Play</a>
+        </li>
+        <li class="header-nav-pc-item"><a href="#reviews">User Reviews</a></li>
+        <li class="header-nav-pc-item"><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <nav class="header-nav-mobile">
+      <ul class="header-nav-mobile-list">
+        <li class="header-nav-mobile-item-close">
+          <button type="button" class="header-nav-mobile-button-close">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE4SURBVHgB7dpLcoJQFIThrqzApbIDescugZBBJykFBeQ+zqG/KkYOrv2XpQ4uYGZmZmZmZrvd0FbT84f5uc/PND8j6vt//oAGpoenZoTx4eyfEFU/DTf81a8dYVw4d0IDw8obKRlhbTzRCFEvQnfjhSgfodvxQpSL0P14Ic6PEGa8EOdFCDdeiM8jhB0vxPEI4ccLsT9CmvFCbI+QbrwQ7yOkHS/EeoT044VYHnqJ8UJceLwQHY3/Qn3TwddSWPvC2/o/IbQt49NGePVTRySP8Gq8EEkjbBkvRLIIe8YLkSTCkfFCBI/wyXghgkY4Y7wQwSKcOV6IIBFKjBei8wglxwvRaYQa44XoLELN8cKVM7u4H1B6vHDh3C7uBxD1EM8RqtP9gDvafATZ+Pxfl74oZWZmZmZmFtI3nEODEuMj2ZcAAAAASUVORK5CYII=" alt="menu" />
+          </button>
+        </li>
+        <li class="header-nav-mobile-item header-nav-mobile-item-home">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="header-nav-mobile-item">
+          <a href="#description">Game Description</a>
+        </li>
+        <li class="header-nav-mobile-item">
+          <a href="#features">Features</a>
+        </li>
+        <li class="header-nav-mobile-item">
+          <a href="#gallery">Gallery</a>
+        </li>
+        <li class="header-nav-mobile-item">
+          <a href="#how-play">How to Play</a>
+        </li>
+        <li class="header-nav-mobile-item">
+          <a href="#reviews">User Reviews</a>
+        </li>
+        <li class="header-nav-mobile-item"><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <button type="button" class="header-nav-mobile-button">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADJSURBVHgB7di7EcIwEEXRx6cASqAEleASoAJaoAPHhHRASEgJdGBKICSDDmA1RBj8UcBYC/fMvETeYD1KVisBAAAA+G+jju/BMlP+jkpUWe5OUilBIWnohlMT6j8x1mcn+XOrH0xbCpeWtfIXe91ZzgIAoL/ScpWP6aRUgiAN3vDXxq+fMGk4v+j5HCqUvzh+bSx7AQDwqm21t7Cs5GO1t7Uc+hbP5Wv0inm7hKbxy8Nt1YWUYvdL2a51eqH8xdnS454VAAAAyMMDaaMUs0KBL68AAAAASUVORK5CYII=" alt="menu" />
+    </button>
+  </div>
+</header>
+
+    <section class="hero">
+  <div class="hero-container container">
+    <h1 class="hero-text">Swing, Compete, Conquer – <span>Become a Golf Champion!</span></h1>
+    <a class="hero-button" href="#">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAwCAYAAACITIOYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQsSURBVHgBzZlPaBxVHMd/v/cmY/60dRVaEhDZFAoeNxpQQUw3NlJBcBN6aOyh6UGhtyx4T3IQ7EG6OdSL0KwH3YrV7kGx1Y1NQEswxexJC4JZFWyptW5ojOnu7L6+3zSzTNrZ3Zk3bzf9HJb5897uh9/77ps3MwguBjOJg4B8SiDEUEBEHsojQHr56Oez8AiAzsbgubFJuXvaq5EAURACZn4a/yINO4gtG8scjRpYXvXRPmuJSjI/ni3ADsDog0N52mf7hIF8dfDTsanYXCICbcaW7bp14o1AvQRO8y628mxmbALaiB2D4XfXRWn397C570NQIC+jMdqOaDBnw7zzEnTefAsUiFE0njs3NhfLJKLQQph7h4Qf++dNUAEBJziyy62MRi0G7oObT16A0hNZUIWmuoqoxnVHg3kd7Lw9Cua/CVBFVjnaimiweifCChNONAY/oQtOeDxj4CZsJBwoGqxSHV0+ls2DIqxZAx0VJigagvOVMNFoKkvoEiYoGjLPK69/dngKAuJLltAp3Mc2Ih/suTJdyvHVu5e47y/1LUvoEJaicObxH6CPb9jRYBwvSOm5/7+GaLO+gWSJMMJuUTd2NDqM1fK80TAagWUJFeF6otsQYEej9A2f8DqtJEvYwmuv+mq7G8twas+PjUW3oGggwzmvaCjLEp23joEh1xPQRJQqesBYgyB4RSOULNEtV2r1hFVFtyGjYckq06YBGiBhGmBLrokdtIhuIWSVZY4XQ1fWwV1hnaIOMsfHtckSjrBu0S1iWmWJd5b+hv23S9ACIlplT/58Cl4ufAt3Pj4AlZtdoJm8NlkSHbpx0d4Wm1y7sECc1SLrFq19uVZhzJuvlNOhZb1EHXQIy7uCWYP3xGk7lOzxX8/UFa39mKKwfLa2KE3j5iFrEuPFIh1Tlj3y20fw2p/nfbUl4fXz+6G6ZjZvjFAUApPmiHWwY8RacJ9SkiXRI4V0kC62KFW4kbA95GxXvzlSTnmdDyyrIupQT5iGXHAccA+5F4Fkw4g6uIXldFRAYKM05Ga83PSu17esDlEHsWYW1796eqaD9QwYh0q+7/N9rbp0ispgLlomn+g7e60AZwP1bC6rT1QOOVZP7J2/ugCKNIyBDlH5yKcosznzX6V7YG9OXZSoW1k9oiJrdRjJvotLBdCAp2x4UczLIU+GreSDPCQbRpSGvIJipje3nIIWsC2zQ9cvqU/4AmbXKz39vbmrLRElapUl0ZO/vAeBkVMRMjHdO693yL2wZYf/+rL49rX3A73Xsv/lApL7vltOQ5vg9JHZ9ceLiPCM3073p6Ke8acuX1mCNmJXlvFqSi7Lmr+4k0NeoauPpqkoKLUXzTeGn59kWD1dp9n9q0+u9blsBLp3rh9+IcrKVooBDsm1ZUS+B/hdPl1Ib1jdqf6FhSLsMPcAKirc7I7aUDkAAAAASUVORK5CYII=" alt="playstore" />
+      <div class="hero-button-text">
+        <p>GET IT ON</p>
+        <img src="data:image/png;base64,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" alt="playstore text" />
+      </div>
+    </a>
+  </div>
+</section>
+
+    <section class="description" id="description">
+  <div class="description_container container">
+    <h2 class="title-h2">Game Description</h2>
+    <img
+      src="/golf-champion-outs/assets/game-description-hand-abeb91e2.png"
+      alt="description hand"
+      class="description-hand"
+    />
+    <div class="description-content">
+      <p>
+        Experience the thrill of real-time golf like never before in Golf Impact
+        - Real Golf Game! Master your swing, challenge players worldwide, and
+        compete in stunning courses set across breathtaking global locations.
+        With intuitive controls and realistic physics, every shot feels
+        authentic and rewarding.
+      </p>
+      <p>
+        Unlock and upgrade powerful clubs, fine-tune your skills, and climb the
+        leaderboards to become a true golf champion. Whether you’re a casual
+        player or a seasoned pro, Golf Impact delivers an immersive and
+        competitive golf experience right at your fingertips.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section class="features" id="features">
+  <div class="features_container container">
+    <h2 class="title-h2">Game Features</h2>
+    <ul class="features-list">
+      <li class="features-item">
+        <img src="/golf-champion-outs/assets/features-ball-97efc344.png" alt="ball" />
+        <p class="features-item-description">
+          <span>Realistic Golf Physics</span> – Feel the accuracy of each swing.
+        </p>
+      </li>
+      <li class="features-item">
+        <img src="/golf-champion-outs/assets/features-ball-97efc344.png" alt="ball" />
+        <p class="features-item-description">
+          <span>Global Multiplayer Matches</span> – Compete with players
+          worldwide.
+        </p>
+      </li>
+      <li class="features-item">
+        <img src="/golf-champion-outs/assets/features-ball-97efc344.png" alt="ball" />
+        <p class="features-item-description">
+          <span>Intuitive Swing Controls</span> – Easy to learn, hard to master.
+        </p>
+      </li>
+      <li class="features-item">
+        <img src="/golf-champion-outs/assets/features-ball-97efc344.png" alt="ball" />
+        <p class="features-item-description">
+          <span>Tournaments & Championships</span> – Climb the ranks and become
+          a legend.
+        </p>
+      </li>
+      <li class="features-item">
+        <img src="/golf-champion-outs/assets/features-ball-97efc344.png" alt="ball" />
+        <p class="features-item-description">
+          <span>Stunning 3D Courses</span> – Play in breathtaking locations.
+        </p>
+      </li>
+      <li class="features-item">
+        <img src="/golf-champion-outs/assets/features-ball-97efc344.png" alt="ball" />
+        <p class="features-item-description">
+          <span>Exclusive Rewards & Upgrades</span> – Customize your gear for
+          victory.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="gallery" id="gallery">
+  <div class="gallery_container container">
+    <h2 class="title-h2 gallery-title">Gallery</h2>
+    <div class="gallery-content">
+      <div class="swiper swiper-gallery">
+        <div class="swiper-wrapper swiper-wrapper-gallery">
+          <div class="swiper-slide swiper-slide-gallery">
+            <img
+              src="/golf-champion-outs/assets/gallery-1-dd056cae.jpg"
+              alt="gallery-1"
+              class="gallery-img"
+            />
+          </div>
+
+          <div class="swiper-slide swiper-slide-gallery">
+            <img
+              src="/golf-champion-outs/assets/gallery-2-a3e9f8a7.jpg"
+              alt="gallery-2"
+              class="gallery-img"
+            />
+          </div>
+
+          <div class="swiper-slide swiper-slide-gallery">
+            <img
+              src="/golf-champion-outs/assets/gallery-3-b1f68822.jpg"
+              alt="gallery-3"
+              class="gallery-img"
+            />
+          </div>
+
+          <div class="swiper-slide swiper-slide-gallery">
+            <img
+              src="/golf-champion-outs/assets/gallery-4-a393fb34.jpg"
+              alt="gallery-4"
+              class="gallery-img"
+            />
+          </div>
+
+          <div class="swiper-slide swiper-slide-gallery">
+            <img
+              src="/golf-champion-outs/assets/gallery-5-859f021e.jpg"
+              alt="gallery-5"
+              class="gallery-img"
+            />
+          </div>
+
+          <div class="swiper-slide swiper-slide-gallery">
+            <img
+              src="/golf-champion-outs/assets/gallery-6-be443d83.jpg"
+              alt="gallery-6"
+              class="gallery-img"
+            />
+          </div>
+
+          <div class="swiper-slide swiper-slide-gallery">
+            <img
+              src="/golf-champion-outs/assets/gallery-7-386527ea.jpg"
+              alt="gallery-7"
+              class="gallery-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="how-play" id="how-play">
+  <div class="how-play_container container">
+    <h2 class="title-h2">How to play</h2>
+    <img
+      src="/golf-champion-outs/assets/how-play-element-7c0e69dc.png"
+      alt="element"
+      class="how-play_element"
+    />
+    <ul class="how-play_list">
+      <li class="how-play_item">
+        Select your golf club and customize your gear.
+      </li>
+      <li class="how-play_item">Swipe to control your swing with precision.</li>
+      <li class="how-play_item">Compete in 1v1 multiplayer matches.</li>
+      <li class="how-play_item">Win tournaments and earn trophies.</li>
+      <li class="how-play_item">Upgrade your clubs and skills for better performance.</li>
+    </ul>
+  </div>
+</section>
+
+    <section class="reviews" id="reviews">
+  <div class="reviews_container container">
+    <h2 class="title-h2">User Reviews</h2>
+    <div class="swiper swiper-reviews">
+      <div class="swiper-wrapper swiper-wrapper-reviews">
+        <div class="swiper-slide swiper-slide-review">
+          <h3>James R.</h3>
+          <p>
+            One of the best mobile golf games! The graphics are stunning, and
+            the gameplay feels realistic. Highly recommend!
+          </p>
+
+          <img class="stars" src="data:image/png;base64,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" alt="stars" />
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <h3>Sophia M.</h3>
+          <p>
+            I love the real-time matches! Competing with players worldwide makes
+            every game exciting. Definitely worth playing!
+          </p>
+
+          <img class="stars" src="data:image/png;base64,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" alt="stars" />
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <h3>Emily K.</h3>
+          <p>
+            The controls are smooth, and the courses are beautifully designed.
+            Feels like playing real golf!
+          </p>
+          <img class="stars" src="data:image/png;base64,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" alt="stars" />
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <h3>Daniel K.</h3>
+          <p>
+            Great mechanics and fun tournaments! It’s easy to learn but
+            challenging enough to keep me coming back.
+          </p>
+          <img class="stars" src="data:image/png;base64,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" alt="stars" />
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <h3>Michael B.</h3>
+          <p>
+            Amazing visuals and great game physics. The multiplayer mode is
+            fantastic!
+          </p>
+          <img class="stars" src="data:image/png;base64,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" alt="stars" />
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+    <section class="faq" id="faq">
+  <div class="faq_container container">
+    <h2 class="title-h2">FAQ</h2>
+    <ul class="faq_list">
+      <li class="faq-item">
+        <button class="faq-question-button-js" type="button">
+          <span class="faq_question">Is Golf Impact free to play?</span>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEVSURBVHgB7dpNasJQGIXh811KqbSDLCHDFiqUrKDdQXdQd1K6knYHdQmuQAQHTl1CZjox13v9IeL8fnLCeSYmI3lJQuAQg5O6fqtGj5jEiHZ7j+l6sWhR2B2cjJ7CLwyflo4fdvEr/XygsAAvKaw/tHc48Iu7AcWxUhwrxbFSHCvFsVIcK8WxUhwrxbFSHKtBx+UZsR9MLVQoxAzfl+dpnP1BKV23zsPvIe7ltfm/3BWHICLOjnHjJmKATs9cnGFg0lX7s/PJ87iZpGtZoxDPZ84C2k3o+rjSrm/91XJe/L/1nmOlOFaKY6U4VopjpThWimOlOFaKY6U4Vopj5RjXD795MIUDt90yy8NvGmerPJh6fJ2+B85HNVUImrDtAAAAAElFTkSuQmCC" alt="plus" />
+        </button>
+        <p class="faq-answer">
+          Yes, with optional in-game purchases for faster progress.
+        </p>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-question-button-js" type="button">
+          <span class="faq_question">Can I play offline?</span>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEVSURBVHgB7dpNasJQGIXh811KqbSDLCHDFiqUrKDdQXdQd1K6knYHdQmuQAQHTl1CZjox13v9IeL8fnLCeSYmI3lJQuAQg5O6fqtGj5jEiHZ7j+l6sWhR2B2cjJ7CLwyflo4fdvEr/XygsAAvKaw/tHc48Iu7AcWxUhwrxbFSHCvFsVIcK8WxUhwrxbFSHKtBx+UZsR9MLVQoxAzfl+dpnP1BKV23zsPvIe7ltfm/3BWHICLOjnHjJmKATs9cnGFg0lX7s/PJ87iZpGtZoxDPZ84C2k3o+rjSrm/91XJe/L/1nmOlOFaKY6U4VopjpThWimOlOFaKY6U4Vopj5RjXD795MIUDt90yy8NvGmerPJh6fJ2+B85HNVUImrDtAAAAAElFTkSuQmCC" alt="plus" />
+        </button>
+        <p class="faq-answer">
+          No, an internet connection is required for multiplayer matches.
+        </p>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-question-button-js" type="button">
+          <span class="faq_question">How do I improve my swing accuracy?</span>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEVSURBVHgB7dpNasJQGIXh811KqbSDLCHDFiqUrKDdQXdQd1K6knYHdQmuQAQHTl1CZjox13v9IeL8fnLCeSYmI3lJQuAQg5O6fqtGj5jEiHZ7j+l6sWhR2B2cjJ7CLwyflo4fdvEr/XygsAAvKaw/tHc48Iu7AcWxUhwrxbFSHCvFsVIcK8WxUhwrxbFSHKtBx+UZsR9MLVQoxAzfl+dpnP1BKV23zsPvIe7ltfm/3BWHICLOjnHjJmKATs9cnGFg0lX7s/PJ87iZpGtZoxDPZ84C2k3o+rjSrm/91XJe/L/1nmOlOFaKY6U4VopjpThWimOlOFaKY6U4Vopj5RjXD795MIUDt90yy8NvGmerPJh6fJ2+B85HNVUImrDtAAAAAElFTkSuQmCC" alt="plus" />
+        </button>
+        <p class="faq-answer">
+          Practice in training mode and upgrade your clubs.
+        </p>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-question-button-js" type="button">
+          <span class="faq_question"
+            >Are there different courses available?</span
+          >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEVSURBVHgB7dpNasJQGIXh811KqbSDLCHDFiqUrKDdQXdQd1K6knYHdQmuQAQHTl1CZjox13v9IeL8fnLCeSYmI3lJQuAQg5O6fqtGj5jEiHZ7j+l6sWhR2B2cjJ7CLwyflo4fdvEr/XygsAAvKaw/tHc48Iu7AcWxUhwrxbFSHCvFsVIcK8WxUhwrxbFSHKtBx+UZsR9MLVQoxAzfl+dpnP1BKV23zsPvIe7ltfm/3BWHICLOjnHjJmKATs9cnGFg0lX7s/PJ87iZpGtZoxDPZ84C2k3o+rjSrm/91XJe/L/1nmOlOFaKY6U4VopjpThWimOlOFaKY6U4Vopj5RjXD795MIUDt90yy8NvGmerPJh6fJ2+B85HNVUImrDtAAAAAElFTkSuQmCC" alt="plus" />
+        </button>
+        <p class="faq-answer">
+          Yes! Play in various stunning locations around the world.
+        </p>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-question-button-js" type="button">
+          <span class="faq_question">Can I challenge my friends?</span>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEVSURBVHgB7dpNasJQGIXh811KqbSDLCHDFiqUrKDdQXdQd1K6knYHdQmuQAQHTl1CZjox13v9IeL8fnLCeSYmI3lJQuAQg5O6fqtGj5jEiHZ7j+l6sWhR2B2cjJ7CLwyflo4fdvEr/XygsAAvKaw/tHc48Iu7AcWxUhwrxbFSHCvFsVIcK8WxUhwrxbFSHKtBx+UZsR9MLVQoxAzfl+dpnP1BKV23zsPvIe7ltfm/3BWHICLOjnHjJmKATs9cnGFg0lX7s/PJ87iZpGtZoxDPZ84C2k3o+rjSrm/91XJe/L/1nmOlOFaKY6U4VopjpThWimOlOFaKY6U4Vopj5RjXD795MIUDt90yy8NvGmerPJh6fJ2+B85HNVUImrDtAAAAAElFTkSuQmCC" alt="plus" />
+        </button>
+        <p class="faq-answer">
+          Yes! Invite your friends and compete in private matches.
+        </p>
+      </li>
+    </ul>
+    <img class="faq-balls" src="/golf-champion-outs/assets/faq-balls-78351b59.png" alt="balls" />
+  </div>
+</section>
+
+
+    <footer class="footer">
+  <div class="footer_container container">
+    <ul class="footer-links-list">
+      <li class="footer-links-list-item">
+        <a href="./privacy-policy.html">Privacy policy</a>
+      </li>
+      <li class="footer-links-list-item">
+        <a href="./terms-and-conditions.html">Terms and Conditions</a>
+      </li>
+      <li class="footer-links-list-item">
+        <a href="./cookies-policy.html">Cookies Policy</a>
+      </li>
+    </ul>
+    <p class="footer-text">© 2025 gamemasterstar.com – All rights reserved</p>
+  </div>
+</footer>
+
+    <div class="cookies-section">
+  <div class="cookies-container container">
+    <h2 class="cookies-title">Cookies Policy</h2>
+    <p class="cookies-text">
+      We use cookies to improve your experience on our website. By browsing this
+      website, you agree to our use of cookies.
+    </p>
+    <div class="cookies-buttons">
+      <button class="cookies-button cookies-accept-js">Accept Cookies</button>
+      <button class="cookies-button cookies-decline-js">Decline Cookies</button>
+    </div>
+  </div>
+</div>
+
+
+
+    
+  </body>
+</html>
