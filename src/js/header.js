@@ -1,4 +1,4 @@
-const mobileMenu = () => {
+export const mobileMenu = () => {
   const mobileMenuButton = document.querySelector('.header-nav-mobile-button');
   const mobileMenu = document.querySelector('.header-nav-mobile');
   const mobileMenuButtonClose = document.querySelector(
@@ -28,4 +28,3 @@ const mobileMenu = () => {
   });
 };
 
-export default mobileMenu;

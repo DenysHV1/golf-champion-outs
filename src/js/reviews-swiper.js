@@ -1,7 +1,7 @@
 import Swiper from 'swiper';
 import 'swiper/css';
 
-const reviewsSwiper = () => {
+export const reviewsSwiper = () => {
   new Swiper('.swiper-reviews', {
     slidesPerView: 1,
     slidesPerGroup: 1,
@@ -36,5 +36,3 @@ const reviewsSwiper = () => {
     },
   });
 };
-
-export default reviewsSwiper;

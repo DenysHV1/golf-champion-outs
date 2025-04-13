@@ -1,7 +1,7 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
-const swiperGallery = () => {
+export const swiperGallery = () => {
   new Swiper('.swiper-gallery', {
     slidesPerView: 1,
     slidesPerGroup: 1,
@@ -26,4 +26,3 @@ const swiperGallery = () => {
   });
 };
 
-export default swiperGallery;
