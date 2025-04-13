@@ -1,1 +1,139 @@
+.page-title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 0.91667;
+  text-align: center;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 36px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 48px;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+  }
+}
 
+.page-section1 {
+  margin-top: 100px;
+  @media screen and (min-width: 1440px) {
+    margin-top: 190px;
+  }
+}
+
+.page-section2 {
+  margin-top: 80px;
+  @media screen and (min-width: 1440px) {
+    margin-top: 190px;
+  }
+}
+
+.page-section3 {
+  margin-top: 80px;
+  @media screen and (min-width: 1440px) {
+    margin-top: 190px;
+  }
+}
+
+.page-text-content {
+  padding: 0 15px;
+  padding-bottom: 80px;
+  @media screen and (min-width: 1440px) {
+    padding: 0 108px;
+    padding-bottom: 181px;
+  }
+}
+
+.page-h2-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  line-height: 0.61111;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #000;
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+  }
+}
+
+.page-h3-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}
+
+.page-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}
+
+.page-text-bold {
+  font-weight: 700;
+}
+
+.page-text-margin {
+  margin-bottom: 16px;
+}
+
+.page-text-margin2 {
+  margin-bottom: 48px;
+}
+
+.page-list-item-link {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  display: inline-block;
+  max-width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #00f;
+  text-decoration: underline;
+  @media screen and (min-width: 1440px) {
+    word-break: break-all;
+    overflow-wrap: anywhere;
+    display: inline;
+    max-width: none;
+    font-size: 24px;
+  }
+}
+
+.page-list-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}
+
+.page-list-item-link2 {
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.pages-balls-image {
+  margin: 0 auto;
+  max-width: 343px;
+  @media screen and (min-width: 1440px) {
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 343px) {
+    max-width: 320px;
+  }
+}
