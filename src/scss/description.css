@@ -1,19 +1,43 @@
-.about-game {
+.description {
+  position: relative;
   margin-bottom: 80px;
   scroll-margin-top: 100px;
   @media screen and (min-width: 1440px) {
-    margin-bottom: 161px;
+    margin-bottom: 120px;
   }
 }
 
-.about-game_container {
+.description_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 28px;
+  gap: 24px;
+  padding: 0 20px;
   @media screen and (min-width: 1440px) {
-    gap: 36px;
+    gap: 48px;
+    padding-left: 214px;
+    padding-right: 108px;
   }
 }
 
+.description-content > p {
+  font-size: 16px;
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}
+
+.description-hand {
+  position: absolute;
+  top: -89px;
+  left: 0;
+  width: 130px;
+  height: 194px;
+  @media screen and (min-width: 1440px) {
+    top: -103px;
+    left: 0px;
+    width: 290px;
+    height: 434px;
+  }
+}
