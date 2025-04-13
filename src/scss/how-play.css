@@ -2,20 +2,50 @@
   margin-bottom: 80px;
   scroll-margin-top: 100px;
   @media (min-width: 1440px) {
-    margin-bottom: 140px;
+    margin-bottom: 84px;
   }
 }
 
 .how-play_container {
+  position: relative;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 28px;
+  gap: 24px;
   @media (min-width: 1440px) {
-    padding: 0 80px;
-    gap: 36px;
+    gap: 48px;
   }
 }
 
+.how-play_list {
+  list-style: disc;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  @media screen and (min-width: 1440px) {
+    max-width: 556px;
+    gap: 16px;
+  }
+}
+
+.how-play_item {
+  font-size: 16px;
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}
+
+.how-play_element {
+  display: none;
+  @media screen and (min-width: 1440px) {
+    display: block;
+    position: absolute;
+    top: -122px;
+    left: 60px;
+    width: 424px;
+    height: 635px;
+  }
+}
