@@ -23,7 +23,7 @@
 }
 
 .gallery-content {
-  width: 100%;
+  width: 317px;
   @media screen and (min-width: 1440px) {
     width: 769px;
   }

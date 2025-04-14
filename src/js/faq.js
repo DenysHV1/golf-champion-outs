@@ -3,20 +3,7 @@ export const faq = () => {
 
   questionsBtn.forEach(btn => {
     btn.addEventListener('click', () => {
-      const isAlreadyOpen = btn.nextElementSibling.classList.contains('open');
-
-      questionsBtn.forEach(btnNext => {
-        btnNext.nextElementSibling.classList.remove('open');
-      });
-
-      if (!isAlreadyOpen) {
-        btn.nextElementSibling.classList.add('open');
-        [...btn.children].forEach(item => {
-          if (item.nodeName === 'svg') {
-            item.style.transform = 'rotate(0deg)';
-          }
-        });
-      }
+      btn.nextElementSibling.classList.toggle('open');
     });
   });
 };
